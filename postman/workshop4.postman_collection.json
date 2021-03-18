@@ -33,7 +33,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"idlat\" : \"103.5\",\n   \"idlong\" : \"16.6\",\n  \"picture_url\":  \"https://www.paiduaykan.com/province/Northeast/kalasin/pic/sirindhornmuseum.jpg\",\n \"height\": 180,\n    \"weight\": 74.2,\n  \"name_attraction\" : \"พิพิธภัณฑ์สิรินธร\",\n    \"country\" : \"Thailand\",\n    \"state\" : \"จังหวัดกาฬสินธุ์\",\n    \"zone\" : \"ภาคเหนือ\",\n    \"seasons\" : \"ฤดูหนาว\",\n  \"type\" : \"mountian\"\n  }\n"
+					"raw": "{\n \"id\":\"00001\" ,\n \"idlat\" : \"103.52416491276725\",\n   \"idlong\" : \"16.693614558623562\",\n  \"picture_url\":  \"https://www.paiduaykan.com/province/Northeast/kalasin/pic/sirindhornmuseum.jpg\",\n  \"name_attraction\" : \"พิพิธภัณฑ์สิรินธร\",\n    \"country\" : \"Thailand\",\n    \"state\" : \"จังหวัดกาฬสินธุ์\",\n    \"zone\" : \"ภาคเหนือ\",\n    \"seasons\" : \"ฤดูหนาว\",\n  \"Type\" : \"mountian\"\n  }\n"
 				},
 				"url": {
 					"raw": "{{apiUrl}}/attraction",
@@ -112,7 +112,7 @@
 					"query": [
 						{
 							"key": "sort_by",
-							"value": "idlat"
+							"value": "id"
 						},
 						{
 							"key": "order",
@@ -155,7 +155,7 @@
 					"query": [
 						{
 							"key": "sort_by",
-							"value": "idlat"
+							"value": "id"
 						},
 						{
 							"key": "order",
@@ -198,16 +198,16 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"weight\" : 74\n}"
+					"raw": "{\n    \"idlat\" : 103.52416491276725\n}"
 				},
 				"url": {
-					"raw": "{{apiUrl}}/attraction/103.5",
+					"raw": "{{apiUrl}}/attraction/00001",
 					"host": [
 						"{{apiUrl}}"
 					],
 					"path": [
 						"attraction",
-						"103.5"
+						"00001"
 					]
 				}
 			},
@@ -234,13 +234,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{apiUrl}}/attraction/103.5",
+					"raw": "{{apiUrl}}/attraction/00001",
 					"host": [
 						"{{apiUrl}}"
 					],
 					"path": [
 						"attraction",
-						"103.5"
+						"00001"
 					]
 				}
 			},
@@ -287,7 +287,7 @@
 					],
 					"path": [
 						"attraction",
-						"103.5"
+						"00001"
 					]
 				}
 			},
